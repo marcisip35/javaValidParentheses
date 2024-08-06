@@ -31,6 +31,7 @@ class Java{
             }
         }
 
+        //if the stack is empty that means true, all valid pairs were popped and all are valid parentheses
         return stack.isEmpty();
     }
 }
